@@ -78,9 +78,9 @@ $start = ($page - 1) * $per_hal;
 			<td><?= $b['nama'] ?></td>
 			<!-- <td>Rp.<?= number_format($b['harga']) ?>,-</td> -->
 			<td><?= $b['jumlah'] ?></td>
-			<td><?= $b['Jumlah SMALL'] ?></td>
-			<td><?= $b['Jumlah MEDIUM'] ?></td>
-			<td><?= $b['Jumlah LARGE'] ?></td>
+			<td><?= $b['Jumlah_SMALL'] ?></td>
+			<td><?= $b['Jumlah_MEDIUM'] ?></td>
+			<td><?= $b['Jumlah_LARGE'] ?></td>
 			<td>
 				<a href="det_barang.php?id=<?= $b['id']; ?>" class="btn btn-info">Detail</a>
 				<a href="edit.php?id=<?= $b['id']; ?>" class="btn btn-warning">Edit</a>

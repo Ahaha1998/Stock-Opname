@@ -7,7 +7,9 @@ $jenis = $_POST['jenis'];
 // $modal=$_POST['modal'];
 // $harga=$_POST['harga'];
 $jumlah = $_POST['jumlah'];
-$satuan = $_POST['satuan'];
+$jumlah_SMALL = $_POST['Jumlah_SMALL'];
+$jumlah_MEDIUM = $_POST['Jumlah_MEDIUM'];
+$jumlah_LARGE = $_POST['Jumlah_LARGE'];
 
-$conn->query("update barang set nama='$nama', jenis='$jenis', jumlah='$jumlah', satuan='$satuan' where id='$id'");
+$conn->query("UPDATE barang set nama='$nama', jenis='$jenis', jumlah='$jumlah', Jumlah_SMALL='$jumlah_SMALL', Jumlah_MEDIUM='$jumlah_MEDIUM', Jumlah_LARGE='$jumlah_LARGE' where id='$id'");
 header("location:barang.php");
