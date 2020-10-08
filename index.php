@@ -30,7 +30,7 @@
 		<div class="panel panel-default">
 			<form action="login_act.php" method="post">
 				<div class="col-md-4 col-md-offset-4 kotak">
-					<h3>Silahkan Login ..</h3>
+					<h3>Silahkan Login Disini</h3>
 					<div class="input-group">
 						<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
 						<input type="text" class="form-control" placeholder="Username" name="uname">
